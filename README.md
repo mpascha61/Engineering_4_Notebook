@@ -58,5 +58,6 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ### Test Link
 [Buy more stickers](https://www.amazon.com/Stickers-Grocery-Warning-Labels-Adhesive/dp/B08SLZMMVW/ref=sr_1_3?keywords=spicy+stickers&qid=1662053762&sr=8-3)
 ### Test Image
-![New spicy sticker](images/Spicy.png)
+![New spicy sticker](images/Spicy.jpg)
 ### Test GIF
+![Scared spicy man](images/Spicy.gif)
