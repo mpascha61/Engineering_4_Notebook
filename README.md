@@ -12,18 +12,18 @@
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Countdown from 10 to 0 and then saying liftoff, simulating a launch of a rocket here.
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/189191142-38c8a017-a819-4698-9af3-10123c35a570.gif)
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring was necessary for this part
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
 
 ### Reflection
 
