@@ -23,7 +23,7 @@ Countdown from 10 to 0 and then saying liftoff, simulating a launch of a rocket 
 No wiring was necessary for this part
 
 ### Code
-[Code for the countdown](raspberry-pi/Launch.Pad.1)
+[Code for the countdown](raspberry-pi/LaunchPad1.py)
 
 ### Reflection
 
