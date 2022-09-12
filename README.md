@@ -11,7 +11,7 @@
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
-
+Launch Pad Part 1:
 Countdown from 10 to 0 and then saying liftoff, simulating a launch of a rocket here.
 
 ### Evidence 
@@ -28,6 +28,16 @@ No wiring was necessary for this part
 ### Reflection
 
 To start out I tried using a counter without knowing how the values of interments worked. I had to do some research using the links embedded in the document of the assignment and help from a classmate on some syntax issues such as not adding a colon at the end of a for loop, not making my interment # negative, and forgetting parenthesees. 
+
+### Assignment Description
+
+### Evidence 
+
+### Wiring
+
+### Code
+
+### Reflection
 
 ## Onshape_Assignment_Template
 
