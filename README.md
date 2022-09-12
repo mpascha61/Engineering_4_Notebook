@@ -43,6 +43,8 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 ### Code
 
+[Code for Launch pad 2](raspberry-pi/LaunchPad2.py)
+
 ### Reflection
 
 ## Onshape_Assignment_Template
