@@ -39,6 +39,8 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 ### Wiring
 
+![Simulation Wiring](images/LaunchPad2Wiring.png)
+
 ### Code
 
 ### Reflection
