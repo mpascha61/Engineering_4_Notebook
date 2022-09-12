@@ -8,7 +8,7 @@
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Raspberry_Pi_Launch_Pad
 
 ### Assignment Description
 Launch Pad Part 1:
