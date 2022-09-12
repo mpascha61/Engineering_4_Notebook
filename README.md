@@ -8,15 +8,15 @@
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Raspberry_Pi_Launch_Pad
 
 ### Assignment Description
-
+Launch Pad Part 1:
 Countdown from 10 to 0 and then saying liftoff, simulating a launch of a rocket here.
 
 ### Evidence 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/189191142-38c8a017-a819-4698-9af3-10123c35a570.gif)
+![Countdown](images/countdown.gif)
 
 ### Wiring
 
@@ -28,6 +28,26 @@ No wiring was necessary for this part
 ### Reflection
 
 To start out I tried using a counter without knowing how the values of interments worked. I had to do some research using the links embedded in the document of the assignment and help from a classmate on some syntax issues such as not adding a colon at the end of a for loop, not making my interment # negative, and forgetting parenthesees. 
+
+### Assignment Description
+
+Launch Pad Part 2: The second part to the launch pad combines the use of the countdown from part one and elements of the LED blink assignment. Every second of a the countdown the red led goes off, and upon liftoff the green goes off. 
+
+### Evidence 
+
+![CountdownWithLed](images/LaunchPad2.gif)
+
+### Wiring
+
+![Simulation Wiring](images/LaunchPad2Wiring.png)
+
+### Code
+
+[Code for Launch pad 2](raspberry-pi/LaunchPad2.py)
+
+### Reflection
+
+I started the task by combining code from the LED blink and the countdown from Launch Pad 1. I figured it would be similar LED code but the difference is what the port I was using is. The final way I figured how to use the red then green leds was to have the green turn on using an "else:" statement only when the counter hit 0. I also had troubles with syntax errors, (capitalization of the word "True", needing to lowercase "value".)
 
 ## Onshape_Assignment_Template
 
