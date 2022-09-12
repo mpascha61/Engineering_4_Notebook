@@ -31,7 +31,11 @@ To start out I tried using a counter without knowing how the values of interment
 
 ### Assignment Description
 
+Launch Pad Part 2: The second part to the launch pad combines the use of the countdown from part one and elements of the LED blink assignment. Every second of a the countdown the red led goes off, and upon liftoff the green goes off. 
+
 ### Evidence 
+
+
 
 ### Wiring
 
