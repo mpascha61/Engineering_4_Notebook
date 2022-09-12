@@ -16,7 +16,7 @@ Countdown from 10 to 0 and then saying liftoff, simulating a launch of a rocket 
 
 ### Evidence 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/71345181/189191142-38c8a017-a819-4698-9af3-10123c35a570.gif)
+![Countdown](images/countdown.gif)
 
 ### Wiring
 
