@@ -35,7 +35,7 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 ### Evidence 
 
-
+![CountdownWithLed](images/LaunchPad2.gif)
 
 ### Wiring
 
