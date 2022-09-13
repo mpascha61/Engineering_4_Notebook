@@ -49,6 +49,14 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 I started the task by combining code from the LED blink and the countdown from Launch Pad 1. I figured it would be similar LED code but the difference is what the port I was using is. The final way I figured how to use the red then green leds was to have the green turn on using an "else:" statement only when the counter hit 0. I also had troubles with syntax errors, (capitalization of the word "True", needing to lowercase "value".)
 
+### Assignment Description
+
+Launch Pad Part 3: The third part of the launch pad combines the prior assigmment of the blinking LED with the countdown and adding a button to set off the sequence. 
+
+### Evidence 
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
