@@ -57,6 +57,18 @@ Launch Pad Part 3: The third part of the launch pad combines the prior assigmmen
 
 ![ButtonVideo](images/LaunchPad3.gif)
 
+### Wiring
+
+
+
+### Code
+
+[Code for Launch pad 3](raspberry-pi/LaunchPad3.py)
+
+### Reflection
+
+This assignment was not as troubling as the previous one. I basically copied the LED code and replaced it with button variables and then added a "while True:" at the top of my main code to trump the rest unless the button is pressed. I also forgot to put the letter "t" in digitalio in one of my lines. The code given in the canvas embedded info was very helpful and basically gave it all to me. 
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
