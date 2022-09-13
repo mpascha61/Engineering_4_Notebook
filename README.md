@@ -59,7 +59,7 @@ Launch Pad Part 3: The third part of the launch pad combines the prior assigmmen
 
 ### Wiring
 
-
+![Simulation Wiring](images/LaunchPad3Wiring.png)
 
 ### Code
 
