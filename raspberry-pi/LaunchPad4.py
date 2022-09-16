@@ -9,7 +9,7 @@ led1 = digitalio.DigitalInOut(board.GP12)
 led2 = digitalio.DigitalInOut(board.GP19)
 led1.direction = digitalio.Direction.OUTPUT
 led2.direction = digitalio.Direction.OUTPUT
-button = digitalio.DigialInOut(board.GP21)
+button = digitalio.DigitalInOut(board.GP21)
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.DOWN
 pwm_servo = pwmio.PWMOut(board.GP28, duty_cycle=2 ** 15, frequency=50)
