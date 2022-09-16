@@ -49,6 +49,26 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 I started the task by combining code from the LED blink and the countdown from Launch Pad 1. I figured it would be similar LED code but the difference is what the port I was using is. The final way I figured how to use the red then green leds was to have the green turn on using an "else:" statement only when the counter hit 0. I also had troubles with syntax errors, (capitalization of the word "True", needing to lowercase "value".)
 
+### Assignment Description
+
+Launch Pad Part 3: The third part of the launch pad combines the prior assigmment of the blinking LED with the countdown and adding a button to set off the sequence. 
+
+### Evidence 
+
+![ButtonVideo](images/LaunchPad3.gif)
+
+### Wiring
+
+![Simulation Wiring](images/LaunchPad3Wiring.png)
+
+### Code
+
+[Code for Launch pad 3](raspberry-pi/LaunchPad3.py)
+
+### Reflection
+
+This assignment was not as troubling as the previous one. I basically copied the LED code and replaced it with button variables and then added a "while True:" at the top of my main code to trump the rest unless the button is pressed. I also forgot to put the letter "t" in digitalio in one of my lines. The code given in the canvas embedded info was very helpful and basically gave it all to me. 
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
