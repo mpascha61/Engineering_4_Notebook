@@ -83,15 +83,11 @@ Launch Pad Part 4: The fourth part of the launch pad combines the prior assignme
 
 ### Code
 
+[Code with the Servo](raspberry-pi/LaunchPad4.py)
+
 ### Reflection
 
-
-
-
-
-
-
-
+This assignment was basically just using the servo code given to me in the module of Launch Pad 4 and trying to implement the servo's features into the code. The biggest problem I had was the allignment of my code not fitting into the "If" statements. You need to have it indented past the "If" statement for it to take effect. 
 
 ## Onshape_Assignment_Template
 
