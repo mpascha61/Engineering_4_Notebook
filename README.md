@@ -69,6 +69,30 @@ Launch Pad Part 3: The third part of the launch pad combines the prior assigmmen
 
 This assignment was not as troubling as the previous one. I basically copied the LED code and replaced it with button variables and then added a "while True:" at the top of my main code to trump the rest unless the button is pressed. I also forgot to put the letter "t" in digitalio in one of my lines. The code given in the canvas embedded info was very helpful and basically gave it all to me. 
 
+### Assignment Description
+
+Launch Pad Part 4: The fourth part of the launch pad combines the prior assignment with the button starting the sequence with the addition of a servo turning from 0 degrees to 180 degrees upon liftoff.
+
+### Evidence
+
+![Servo Video](images/LaunchPad4.gif)
+
+### Wiring
+
+![4Wiring](images/LaunchPad4Wiring.png)
+
+### Code
+
+### Reflection
+
+
+
+
+
+
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
