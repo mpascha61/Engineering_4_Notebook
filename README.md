@@ -93,7 +93,11 @@ This assignment was basically just using the servo code given to me in the modul
 
 ### Assignment Description
 
+First part of crash avoidance. Acceleromotor is only part utilized here, gives X/Y/Z values based on the movement of the board.
+
 ### Evidence
+
+![Gif](images/CrashAvoidance1.gif)
 
 ### Wiring
 
@@ -105,6 +109,7 @@ This assignment was basically just using the servo code given to me in the modul
 
 ### Reflection
 
+Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement, still had to import board and time.
 
 ## Onshape_Assignment_Template
 
