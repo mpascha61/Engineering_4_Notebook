@@ -93,7 +93,7 @@ This assignment was basically just using the servo code given to me in the modul
 
 ### Assignment Description
 
-First part of crash avoidance. Acceleromotor is only part utilized here, gives X/Y/Z values based on the movement of the board.
+First part of crash avoidance. Accelerometer is only part utilized here, gives X/Y/Z values based on the movement of the board.
 
 ### Evidence
 
