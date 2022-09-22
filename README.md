@@ -89,6 +89,28 @@ Launch Pad Part 4: The fourth part of the launch pad combines the prior assignme
 
 This assignment was basically just using the servo code given to me in the module of Launch Pad 4 and trying to implement the servo's features into the code. The biggest problem I had was the allignment of my code not fitting into the "If" statements. You need to have it indented past the "If" statement for it to take effect. 
 
+## Raspberry_Pi_Crash_Avoidance
+
+### Assignment Description
+
+First part of crash avoidance. Accelerometer is only part utilized here, gives X/Y/Z values based on the movement of the board.
+
+### Evidence
+
+![Gif](images/CrashAvoidance1.gif)
+
+### Wiring
+
+![Wiring](images/CrashAvoidance1Wiring.png)
+
+### Code
+
+[Accelerometer Code](raspberry-pi/CrashAvoidance1.py)
+
+### Reflection
+
+Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement, still had to import board and time.
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
