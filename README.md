@@ -111,6 +111,26 @@ First part of crash avoidance. Accelerometer is only part utilized here, gives X
 
 Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement, still had to import board and time.
 
+### Assignment Description
+
+Second part of crash avoidance. Accelerometer detects when it is at 90 degrees at an X or Y position and turns on an LED.
+
+### Evidence
+
+![Gif](images/CrashAvoidance2.gif)
+
+### Wiring
+
+![Wiring](images/CrashAvoidance2Wiring.png)
+
+### Code
+
+
+
+### Reflection
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
