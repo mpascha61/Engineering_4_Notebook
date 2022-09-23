@@ -117,7 +117,7 @@ Second part of crash avoidance. Accelerometer detects when it is at 90 degrees a
 
 ### Evidence
 
-![Gif](images/CrashAvoidance2.gif)
+![Gif2](images/CrashAvoidance2.gif)
 
 ### Wiring
 
@@ -125,11 +125,11 @@ Second part of crash avoidance. Accelerometer detects when it is at 90 degrees a
 
 ### Code
 
-
+[Detector Code](raspberry-pi/CrashAvoidance2.py)
 
 ### Reflection
 
-
+Majority of this assignment was adding the led code previously learned into the previous acceleration code. Had issues trying to properly detect the X/Y values because I had the lines determining it stacked on top of each other instead of being in a straight line with only a colon at the end of it.
 
 ## Onshape_Assignment_Template
 
