@@ -36,14 +36,15 @@ while True:
 # add title block to display group
     title = "ANGULAR VELOCITY"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-    splash.append(text_area)    
-    title = f"X {mpu.gyro[0]}"
+    splash.append(text_area)  
+  
+    title = f"X {round(mpu.gyro[0],3)} rad/s"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=20)
     splash.append(text_area) 
-    title = f"Y {mpu.gyro[1]}"
+    title = f"Y {round(mpu.gyro[1],3)} rad/s"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=35)
     splash.append(text_area) 
-    title = f"Z {mpu.gyro[2]}"
+    title = f"Z {round(mpu.gyro[2],3)} rad/s"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=50)
     splash.append(text_area) 
 
