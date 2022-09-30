@@ -131,6 +131,28 @@ Second part of crash avoidance. Accelerometer detects when it is at 90 degrees a
 
 Majority of this assignment was adding the led code previously learned into the previous acceleration code. Had issues trying to properly detect the X/Y values because I had the lines determining it stacked on top of each other instead of being in a straight line with only a colon at the end of it.
 
+### Assignment Description
+
+Crash Avoidance part 3. Combines part 2 and adds an OLED screen that displays X/Y/Z values in 3 decimal places as rad/s (radians per second)
+
+### Evidence
+
+![Gif3](images/CrashAvoidance3.gif)
+
+### Wiring
+
+![Wiring](images/CrashAvoidance3Wiring.png)
+
+### Code
+
+[OLED Code](raspberry-pi/CrashAvoidance3.py)
+
+### Reflection
+
+One part that simplified wiring was wiring the Pico's GP.. or 3v3 power pins to a whole channel then wiring the accelerometer/OLED to that channel. Used 'f strings' for first time which allows specific code to be printed within its boundaries. Used a 'round' function on either side of the gyro function to determine the decimal places to round to. 
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
