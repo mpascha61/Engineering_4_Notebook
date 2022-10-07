@@ -151,7 +151,25 @@ Crash Avoidance part 3. Combines part 2 and adds an OLED screen that displays X/
 
 One part that simplified wiring was wiring the Pico's GP.. or 3v3 power pins to a whole channel then wiring the accelerometer/OLED to that channel. Used 'f strings' for first time which allows specific code to be printed within its boundaries. Used a 'round' function on either side of the gyro function to determine the decimal places to round to. 
 
+### Assignment Description
 
+Landing Area part 1. When inputting 3 sets of x,y coordinates into the terminal the code will give the area of the 3 given vertices, if given a letter input that is not a number it will display an error message and reset the command to prompt a new first coordinate.
+
+### Evidence
+
+![Gif1](images/LandingArea1.gif)
+
+### Wiring
+
+![LandingAreaWiring](images/LandingArea1Wiring.png)
+
+### Code
+
+[Area Code](raspberry-pi/LandingArea1.py)
+
+### Reflection
+
+Had trouble with the "try and except" function because I had left a line of example code in the function. Learned a couple new function such as the try and except and "split" function. 
 
 ## Onshape_Assignment_Template
 
