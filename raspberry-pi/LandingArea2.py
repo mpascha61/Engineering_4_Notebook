@@ -2,12 +2,23 @@
 from adafruit_display_shapes.triangle import Triangle
 from adafruit_display_shapes.line import Line
 from adafruit_display_shapes.circle import Circle
-import displayio 
+from adafruit_display_text import label
+import adafruit_displayio_ssd1306
+import displayio
+import busio
+import board
+displayio.release_displays()
 
 def area_calc(x1, x2, x3, y1, y2, y3): #Find the coordinates
     area = abs((1/2) * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)))
 
     return area
+
+sda_pin = board.GP14
+scl_pin = board.GP15
+i2c = busio.I2C(scl_pin, sda_pin)
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP16)
+display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 while True:
     print("Enter the first coordinate in format x,y:")
     Coordinate1 = input()
@@ -15,9 +26,14 @@ while True:
     Coordinate2 = input()
     print("Enter the third coordinate in format x,y:")
     Coordinate3 = input()
-
     splash = displayio.Group()
+    display.show(splash)
+    xaxis = Line(0,32,128,32, color=0xFFFF00)
+    splash.append(xaxis)
+    yaxis = Line(64,0,64,64, color=0xFFFF00)
+    splash.append(yaxis)
 
+ 
     try:
         Coordinate1 = Coordinate1.split(",")
         Coordinate2 = Coordinate2.split(",")
@@ -31,19 +47,10 @@ while True:
         y1 = float(Coordinate1[1])
         y2 = float(Coordinate2[1])
         y3 = float(Coordinate3[1])
+        triangle = Triangle(x1, y1, x2, y2, x3, y3, outline=0xFFFF00)
+        splash.append(triangle)
         area = area_calc(x1, x2, x3, y1, y2, y3)
         ans = area
         print(f"The area of the triangle with the vertices {Coordinate1}, {Coordinate2}, {Coordinate3} is {ans} kilometers squared")
     except:
-        print("An exception occurred")
-
-        triangle = Triangle(x1, y1, x2, y2, x3, y3, outline=0xFFFF00)
-        splash.append(triangle)
-        
-        title = f"ans"
-        triangle = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-        splash.append(triangle)
-        title = f"triangle"
-        text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=32, y=64)
-        splash.append(triangle)
-        
+        print("An exception occurred")       
