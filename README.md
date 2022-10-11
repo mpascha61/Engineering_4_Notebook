@@ -171,6 +171,23 @@ Landing Area part 1. When inputting 3 sets of x,y coordinates into the terminal 
 
 Had trouble with the "try and except" function because I had left a line of example code in the function. Learned a couple new function such as the try and except and "split" function. 
 
+### Assignment Description
+
+Landing Area part 2 takes the 
+
+### Evidence
+
+![Gif2](images/LandingArea2.gif)
+
+### Wiring
+
+![Wiring](images/LandingArea2Wiring.png)
+
+### Code
+
+[OLED Area Code](raspberry-pi/LandingArea2.py)
+
+### Reflection
 ## Onshape_Assignment_Template
 
 ### Assignment Description
