@@ -33,7 +33,6 @@ while True:
     yaxis = Line(64,0,64,64, color=0xFFFF00)
     splash.append(yaxis)
 
- 
     try:
         Coordinate1 = Coordinate1.split(",")
         Coordinate2 = Coordinate2.split(",")
@@ -47,7 +46,7 @@ while True:
         y1 = float(Coordinate1[1])
         y2 = float(Coordinate2[1])
         y3 = float(Coordinate3[1])
-        triangle = Triangle(x1, y1, x2, y2, x3, y3, outline=0xFFFF00)
+        triangle = Triangle(int(x1) + 64 , (int(y1) + 32 ), (int(x2) + 64 ), (int(y2) + 32 ), (int(x3) + 64 ), (int(y3) + 32 ), outline=0xFFFF00)
         splash.append(triangle)
         area = area_calc(x1, x2, x3, y1, y2, y3)
         ans = area
