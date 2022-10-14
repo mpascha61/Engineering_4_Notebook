@@ -173,7 +173,7 @@ Had trouble with the "try and except" function because I had left a line of exam
 
 ### Assignment Description
 
-Landing Area part 2 takes the 
+Landing Area part 2 takes the area code from Landing Area 1 and displays the triangle created on the OLED.
 
 ### Evidence
 
@@ -188,6 +188,9 @@ Landing Area part 2 takes the
 [OLED Area Code](raspberry-pi/LandingArea2.py)
 
 ### Reflection
+
+Had to use i2c code and splash code for the OLED from Crash avoidance. Had trouble with placement of lines that define functions, needed to have them before the functions themselves. 
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
