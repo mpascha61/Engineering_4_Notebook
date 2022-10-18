@@ -14,11 +14,18 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-'}
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
 while True:
     print("Enter message for morse code, or enter -q to quit")
     message = input()
+    # working of upper() function
+    print("\nConverted String:")
+    if message == "-q":
+        break
+    message = message.upper()
+    variable = " "
     for letter in message: 
+        variable = variable + (MORSE_CODE[letter]) + " "
     # message is just my input, for letter in message means it will print each individual letter, but I want to convert each letter to morse code 
-        print(letter)
+        print(variable)
     # use MORSE_CODE[letter] here to translate from input into morse code
