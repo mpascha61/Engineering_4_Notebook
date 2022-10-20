@@ -191,6 +191,26 @@ Landing Area part 2 takes the area code from Landing Area 1 and displays the tri
 
 Had to use i2c code and splash code for the OLED from Crash avoidance. Had trouble with placement of lines that define functions, needed to have them before the functions themselves. 
 
+### Assignment Description
+
+Morse code part 1 takes your input of text and converts it into morse code, if you type "-q" it will cancel the program
+
+### Evidence
+
+![Gif](images/MorseCode1.gif)
+
+### Wiring
+
+No wiring was necessary. 
+
+### Code
+
+[Morse Code](raspberry-pi/MorseCode1.py)
+
+### Reflection
+
+Morse code part 1 gives the translations of the letter to the morse code beforehand, except had to type in my own translation for the space bar. Used a "break" function for the first time which in comination with an "if" statement can break you out of a command, thus the "-q". Then had to transfer the words I put in to morse code with a variable. 
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
@@ -208,6 +228,7 @@ Take a nice screenshot of your Onshape document.
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
 
 &nbsp;
 
