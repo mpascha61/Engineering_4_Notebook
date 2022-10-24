@@ -8,7 +8,7 @@
 
 &nbsp;
 
-## Raspberry_Pi_Launch_Pad
+## LaunchPad1
 
 ### Assignment Description
 Launch Pad Part 1:
@@ -27,7 +27,9 @@ No wiring was necessary for this part
 
 ### Reflection
 
-To start out I tried using a counter without knowing how the values of interments worked. I had to do some research using the links embedded in the document of the assignment and help from a classmate on some syntax issues such as not adding a colon at the end of a for loop, not making my interment # negative, and forgetting parenthesees. 
+To start out I tried using a counter without knowing how the values of interments worked. I had to do some research using the links embedded in the document of the assignment and help from a classmate on some syntax issues such as not adding a colon at the end of a for loop. Also not making my interment # negative, and forgetting parenthesees. 
+
+## LaunchPad2
 
 ### Assignment Description
 
@@ -49,6 +51,8 @@ Launch Pad Part 2: The second part to the launch pad combines the use of the cou
 
 I started the task by combining code from the LED blink and the countdown from Launch Pad 1. I figured it would be similar LED code but the difference is what the port I was using is. The final way I figured how to use the red then green leds was to have the green turn on using an "else:" statement only when the counter hit 0. I also had troubles with syntax errors, (capitalization of the word "True", needing to lowercase "value".)
 
+## LaunchPad3
+
 ### Assignment Description
 
 Launch Pad Part 3: The third part of the launch pad combines the prior assigmment of the blinking LED with the countdown and adding a button to set off the sequence. 
@@ -68,6 +72,8 @@ Launch Pad Part 3: The third part of the launch pad combines the prior assigmmen
 ### Reflection
 
 This assignment was not as troubling as the previous one. I basically copied the LED code and replaced it with button variables and then added a "while True:" at the top of my main code to trump the rest unless the button is pressed. I also forgot to put the letter "t" in digitalio in one of my lines. The code given in the canvas embedded info was very helpful and basically gave it all to me. 
+
+## LaunchPad4
 
 ### Assignment Description
 
@@ -89,6 +95,8 @@ Launch Pad Part 4: The fourth part of the launch pad combines the prior assignme
 
 This assignment was basically just using the servo code given to me in the module of Launch Pad 4 and trying to implement the servo's features into the code. The biggest problem I had was the allignment of my code not fitting into the "If" statements. You need to have it indented past the "If" statement for it to take effect. 
 
+## CrashAvoidance1
+
 ## Raspberry_Pi_Crash_Avoidance
 
 ### Assignment Description
@@ -109,7 +117,9 @@ First part of crash avoidance. Accelerometer is only part utilized here, gives X
 
 ### Reflection
 
-Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement, still had to import board and time.
+Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement. Also had to import 
+
+## CrashAvoidance2
 
 ### Assignment Description
 
