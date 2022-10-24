@@ -117,7 +117,7 @@ First part of crash avoidance. Accelerometer is only part utilized here, gives X
 
 ### Reflection
 
-Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement. Also had to import 
+Had to remember to put a "time.sleep(1)" at the end of my "while True:" statement. Also had to use "scl", "i2c", and "sda" pins for the first time. Also used the "mpu.acceleration" within the "while True:".
 
 ## CrashAvoidance2
 
@@ -139,7 +139,9 @@ Second part of crash avoidance. Accelerometer detects when it is at 90 degrees a
 
 ### Reflection
 
-Majority of this assignment was adding the led code previously learned into the previous acceleration code. Had issues trying to properly detect the X/Y values because I had the lines determining it stacked on top of each other instead of being in a straight line with only a colon at the end of it.
+Majority of this assignment was adding the led code previously learned into the previous acceleration code. Had issues trying to properly detect the X/Y values because I had the lines determining it stacked on top of each other instead of being in a straight line with only a colon at the end of it. Also had to use "<" and ">" symbols to determine which LED was active. 
+
+## CrashAvoidance3
 
 ### Assignment Description
 
@@ -161,6 +163,8 @@ Crash Avoidance part 3. Combines part 2 and adds an OLED screen that displays X/
 
 One part that simplified wiring was wiring the Pico's GP.. or 3v3 power pins to a whole channel then wiring the accelerometer/OLED to that channel. Used 'f strings' for first time which allows specific code to be printed within its boundaries. Used a 'round' function on either side of the gyro function to determine the decimal places to round to. 
 
+## LandingArea1
+
 ### Assignment Description
 
 Landing Area part 1. When inputting 3 sets of x,y coordinates into the terminal the code will give the area of the 3 given vertices, if given a letter input that is not a number it will display an error message and reset the command to prompt a new first coordinate.
@@ -179,7 +183,9 @@ Landing Area part 1. When inputting 3 sets of x,y coordinates into the terminal 
 
 ### Reflection
 
-Had trouble with the "try and except" function because I had left a line of example code in the function. Learned a couple new function such as the try and except and "split" function. 
+Had trouble with the "try and except" function because I had left a line of example code in the function. Learned a couple new function such as the try and except and "split" function. Had to use math in the code with the "area_calc" command. 
+
+## LandingArea2
 
 ### Assignment Description
 
@@ -199,7 +205,9 @@ Landing Area part 2 takes the area code from Landing Area 1 and displays the tri
 
 ### Reflection
 
-Had to use i2c code and splash code for the OLED from Crash avoidance. Had trouble with placement of lines that define functions, needed to have them before the functions themselves. 
+Had to use i2c code and splash code for the OLED from Crash avoidance. Had trouble with placement of lines that define functions, needed to have them before the functions themselves. Had to include display bus code as well as "splashes" from prior OLED code. 
+
+## MorseCode1
 
 ### Assignment Description
 
