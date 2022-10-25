@@ -29,7 +29,7 @@ while True:
     else:
         led.value = False
         time.sleep(.1)
-
+        #acceleration values defined by inequalities
 # create the display group
     splash = displayio.Group()
 
@@ -37,7 +37,7 @@ while True:
     title = "ANGULAR VELOCITY"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
     splash.append(text_area)  
-  
+    #"f strings" allowing for mpu values to be displayed 
     title = f"X {round(mpu.gyro[0],3)} rad/s"
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=20)
     splash.append(text_area) 

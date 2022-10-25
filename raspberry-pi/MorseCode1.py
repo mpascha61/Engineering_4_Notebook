@@ -15,6 +15,7 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-', ' ':'/'}
+    #libary of morse code translations
 while True:
     print("Enter message for morse code, or enter -q to quit")
     message = input()

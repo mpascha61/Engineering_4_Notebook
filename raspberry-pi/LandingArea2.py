@@ -11,7 +11,7 @@ displayio.release_displays()
 
 def area_calc(x1, x2, x3, y1, y2, y3): #Find the coordinates
     area = abs((1/2) * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)))
-
+    #area calculations defined
     return area
 
 sda_pin = board.GP14
@@ -32,7 +32,7 @@ while True:
     splash.append(xaxis)
     yaxis = Line(64,0,64,64, color=0xFFFF00)
     splash.append(yaxis)
-
+    #drawing the x/y planes on the OLED
     try:
         Coordinate1 = Coordinate1.split(",")
         Coordinate2 = Coordinate2.split(",")

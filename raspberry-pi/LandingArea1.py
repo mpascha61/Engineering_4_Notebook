@@ -2,7 +2,7 @@
 
 def area_calc(x1, x2, x3, y1, y2, y3): #Find the coordinates
     area = abs((1/2) * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)))
-
+    #equation for area defined above
     return area
 while True:
     print("Enter the first coordinate in format x,y:")

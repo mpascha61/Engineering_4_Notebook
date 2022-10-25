@@ -15,7 +15,7 @@ button.pull = digitalio.Pull.DOWN
 pwm_servo = pwmio.PWMOut(board.GP28, duty_cycle=2 ** 15, frequency=50)
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 servo1.angle = 0
-
+#servo is defined by its angles and pulses
 while True:
   if button.value == True:
     for counter in range(10, -1, -1):
@@ -33,6 +33,6 @@ while True:
         led2.value = False 
         time.sleep(.5)
         servo1.angle = 180
-
+        #else statement once counter counts down from 10 and reaches 0
 while True: 
   pass

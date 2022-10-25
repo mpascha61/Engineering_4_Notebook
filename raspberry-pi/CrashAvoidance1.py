@@ -12,3 +12,4 @@ mpu = adafruit_mpu6050.MPU6050(i2c)
 while True:
     print(mpu.acceleration)
     time.sleep(1)
+    #printing the value of the acceleration detected by mpu
