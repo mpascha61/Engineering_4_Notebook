@@ -16,6 +16,7 @@
 * [Landing Area 1](#LandingArea1)
 * [Landing Area 2](#LandingArea2)
 * [Morse Code 1](#MorseCode1)
+* [Morse Code 2](#MorseCode2)
 
 
 
@@ -243,6 +244,28 @@ No wiring was necessary.
 
 Morse code part 1 gives the translations of the letter to the morse code beforehand, except had to type in my own translation for the space bar. Used a "break" function for the first time which in comination with an "if" statement can break you out of a command, thus the "-q". Then had to transfer the words I put in to morse code with a variable. 
 
+## MorseCode2
+
+### Assignment Description
+
+Morse code part 2 takes the the library of morse code from part one and puts the "dots", "dashes", "slashes", and spaces into the form of a blinking led
+
+### Evidence
+
+![Gif 2](images/MorseCode2.gif)
+
+### Wiring
+
+![Wiring](images/MorseCode2Wiring.png)
+
+### Code
+
+[Code](raspberry-pi/MorseCode2.py)
+
+### Reflection
+
+Started with a short library of variables to replace #s for time.sleep times. Had to establish each of the ". - / and space" for their given time.sleep for the led. For reasons Mr. Miller could not explain printing the "character" variable and not the prior "variable" variable worked in the LED blinking and the morse code written out properly.
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
@@ -260,7 +283,6 @@ Take a nice screenshot of your Onshape document.
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
 
 &nbsp;
 
