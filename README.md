@@ -17,6 +17,7 @@
 * [Landing Area 2](#LandingArea2)
 * [Morse Code 1](#MorseCode1)
 * [Morse Code 2](#MorseCode2)
+* [Onshape Beam](#OnshapeBeam)
 
 
 
@@ -266,23 +267,23 @@ Morse code part 2 takes the the library of morse code from part one and puts the
 
 Started with a short library of variables to replace #s for time.sleep times. Had to establish each of the ". - / and space" for their given time.sleep for the led. For reasons Mr. Miller could not explain printing the "character" variable and not the prior "variable" variable worked in the LED blinking and the morse code written out properly.
 
-## Onshape_Assignment_Template
+## OnshapeBeam
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Beam designed in onshape with specific hole parameters and a max weight of 13g in PLA. Made to hold up a # of weight from a hanging object at the very end.
 
 ### Part Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+ 
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Photo](images/Beam.png)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Began this project doing some reasearch on beam theory and strongest beam designs. The "T" or "I" beam are the strongest versions of a simplified beam. I could not have overhang like how an "I" beam is designed, so I created a T beam. Used the most weight in the middle beam as the vertical strength is more important than the horizontal. Also filleted egdes on the vertical to prevent corners and stresss concentrators. 
 
 &nbsp;
 
