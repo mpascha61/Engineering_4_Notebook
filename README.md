@@ -18,6 +18,8 @@
 * [Morse Code 1](#MorseCode1)
 * [Morse Code 2](#MorseCode2)
 * [Onshape Beam](#OnshapeBeam)
+* [Sim Scale](#OnshapeBeamWithSimScale)
+* [Beam part 2](#OnshapeBeamRe-design)
 
 
 
@@ -284,6 +286,11 @@ Beam designed in onshape with specific hole parameters and a max weight of 13g i
 ### Reflection
 
 Began this project doing some reasearch on beam theory and strongest beam designs. The "T" or "I" beam are the strongest versions of a simplified beam. I could not have overhang like how an "I" beam is designed, so I created a T beam. Used the most weight in the middle beam as the vertical strength is more important than the horizontal. Also filleted egdes on the vertical to prevent corners and stresss concentrators. 
+
+## OnshapeBeamWithSimScale
+
+
+## OnshapeBeamRe-design
 
 &nbsp;
 
