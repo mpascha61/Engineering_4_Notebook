@@ -289,6 +289,22 @@ Began this project doing some reasearch on beam theory and strongest beam design
 
 ## OnshapeBeamWithSimScale
 
+### Assignment Description
+
+Beam designed in onshape is tested in SimScale. Used 4 total simulations and the 2nd one I did was the best.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
+
+### Part Image
+
+![Photo](images/RealBeam.png)
+
+### Reflection
+
+I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass, and I thinned the middle beam width also to lessen the mass.
+
 
 ## OnshapeBeamRe-design
 
