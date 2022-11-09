@@ -299,7 +299,7 @@ Beam designed in onshape is tested in SimScale. Used 4 total simulations and the
 
 ### Part Image
 
-![Photo](images/RealBeam.png)
+![Photo](images/FinalBeam.png)
 
 ### Reflection
 
