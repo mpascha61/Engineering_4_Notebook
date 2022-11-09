@@ -18,7 +18,7 @@
 * [Morse Code 1](#MorseCode1)
 * [Morse Code 2](#MorseCode2)
 * [Onshape Beam](#OnshapeBeam)
-* [Sim Scale](#OnshapeBeamWithSimScale)
+* [Sim Scale](#SimScale)
 * [Beam part 2](#OnshapeBeamRe-design)
 
 
@@ -287,11 +287,29 @@ Beam designed in onshape with specific hole parameters and a max weight of 13g i
 
 Began this project doing some reasearch on beam theory and strongest beam designs. The "T" or "I" beam are the strongest versions of a simplified beam. I could not have overhang like how an "I" beam is designed, so I created a T beam. Used the most weight in the middle beam as the vertical strength is more important than the horizontal. Also filleted egdes on the vertical to prevent corners and stresss concentrators. 
 
-## OnshapeBeamWithSimScale
+## SimScale
 
 ### Assignment Description
 
 Beam designed in onshape is tested in SimScale. Used 4 total simulations and the 2nd one I did was the best.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
+
+### Part Image
+
+![Photo](images/SimscaleBeam.png)
+
+### Reflection
+
+Ran my first simulation and it had a very clear breaking point at the end of the beam. Redesigned multiple times making the bottom beam thicker each time. At the end I realized the 2nd simulation held up the most force, so I decided with that one.
+
+## OnshapeBeamRe-design
+
+### Assignment Description
+
+Re-design of the beam after using simscale.
 
 ### Part Link
 
@@ -304,9 +322,6 @@ Beam designed in onshape is tested in SimScale. Used 4 total simulations and the
 ### Reflection
 
 I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass, and I thinned the middle beam width also to lessen the mass.
-
-
-## OnshapeBeamRe-design
 
 &nbsp;
 
