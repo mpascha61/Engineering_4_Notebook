@@ -323,7 +323,23 @@ Re-design of the beam after using simscale.
 
 I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best.
 
-&nbsp;
+## Onshape 4.1 Collab Assignment
+
+### Assignment Description
+
+Ring with a base made in onshape. Holds up the rest of a handheld pullcopter.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/d9dfe5138a6a8b7d604d80e7/w/e26dd64ce496070f7a34fb74/e/d5e3a40cb443e9cad805b402?renderMode=0&uiState=63752e68c48f4327945dd0a1)
+
+### Part Image
+
+![Photo](images/OnshapeRing.png)
+
+### Reflection
+
+Had to make sure sketches were not alligned with any other geometry. Had to make sure I extruded new parts using "add" and not a new part. Used a variable "print_gap" and used it as "print_gap+2mm"
 
 ## Media Test
 
