@@ -20,6 +20,8 @@
 * [Onshape Beam](#OnshapeBeam)
 * [Sim Scale](#SimScale)
 * [Beam part 2](#OnshapeBeamRe-design)
+* [Onshape Collab 4.1](#Onshape 4.1 Collab Assignment)
+* [Onshape Collab 4.2](#Onshape 4.2 Collab Assignment)
 
 
 
@@ -341,15 +343,20 @@ Ring with a base made in onshape. Holds up the rest of a handheld pullcopter.
 
 Had to make sure sketches were not alligned with any other geometry. Had to make sure I extruded new parts using "add" and not a new part. Used a variable "print_gap" and used it as "print_gap+2mm"
 
-## Media Test
+## Onshaoe 4.2 Collab Assignment
 
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
+### Assignment Description
 
-### Test Link
-[Buy more stickers](https://www.amazon.com/Stickers-Grocery-Warning-Labels-Adhesive/dp/B08SLZMMVW/ref=sr_1_3?keywords=spicy+stickers&qid=1662053762&sr=8-3)
+Designed a key that will be pulled to release a pull copter. 
 
-[Test.py](raspberry-pi/test.py)
-### Test Image
-![New spicy sticker](images/Spicy.jpg)
-### Test GIF
-![Scared spicy man](images/Spicy.gif)
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/d9dfe5138a6a8b7d604d80e7/w/e26dd64ce496070f7a34fb74/e/d5e3a40cb443e9cad805b402?renderMode=0&uiState=63752e68c48f4327945dd0a1)
+
+### Part Image
+
+![Photo](images/OnshapeKey.png)
+
+### Reflection
+
+Had to use a pattern to create a bunch of notches in the key. Used a mate connector between the lateral part of the key.
