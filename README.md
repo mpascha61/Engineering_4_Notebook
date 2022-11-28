@@ -343,7 +343,7 @@ Ring with a base made in onshape. Holds up the rest of a handheld pullcopter.
 
 Had to make sure sketches were not alligned with any other geometry. Had to make sure I extruded new parts using "add" and not a new part. Used a variable "print_gap" and used it as "print_gap+2mm"
 
-## Onshaoe 4.2 Collab Assignment
+## Onshape 4.2 Collab Assignment
 
 ### Assignment Description
 
@@ -360,3 +360,21 @@ Designed a key that will be pulled to release a pull copter.
 ### Reflection
 
 Had to use a pattern to create a bunch of notches in the key. Used a mate connector between the lateral part of the key.
+
+## Onshape 4.3 Collab Assignment
+
+### Assignment Description
+
+Assembly of all the parts created. 
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/d9dfe5138a6a8b7d604d80e7/w/e26dd64ce496070f7a34fb74/e/11c83e1f303bdcddc942021e)
+
+### Part Image
+
+![Photo](images/OnshapeAssembly.png)
+
+### Reflection
+
+Had some trouble getting the right screws in place into the holes. Used a lot of fastened mates to connect the parts. Used a slider mate for the key and top. 
