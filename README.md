@@ -20,9 +20,9 @@
 * [Onshape Beam](#OnshapeBeam)
 * [Sim Scale](#SimScale)
 * [Beam part 2](#OnshapeBeamRe-design)
-* [Onshape Collab 4.1](#Onshape4.1CollabAssignment)
-* [Onshape Collab 4.2](#Onshape4.2CollabAssignment)
-* [Onshape Collab 4.3](#Onshape4.3CollabAssignment)
+* [Onshape Collab 4.1](#Onshape4part1CollabAssignment)
+* [Onshape Collab 4.2](#Onshape4part2CollabAssignment)
+* [Onshape Collab 4.3](#Onshape4part3CollabAssignment)
 
 
 
@@ -326,7 +326,7 @@ Re-design of the beam after using simscale.
 
 I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best.
 
-## Onshape4.1Collab Assignment
+## Onshape4part1Collab Assignment
 
 ### Assignment Description
 
@@ -344,7 +344,7 @@ Ring with a base made in onshape. Holds up the rest of a handheld pullcopter.
 
 Had to make sure sketches were not alligned with any other geometry. Had to make sure I extruded new parts using "add" and not a new part. Used a variable "print_gap" and used it as "print_gap+2mm"
 
-## Onshape4.2Collab Assignment
+## Onshape4part2Collab Assignment
 
 ### Assignment Description
 
@@ -362,7 +362,7 @@ Designed a key that will be pulled to release a pull copter.
 
 Had to use a pattern to create a bunch of notches in the key. Used a mate connector between the lateral part of the key.
 
-## Onshape4.3CollabAssignment
+## Onshape4part3CollabAssignment
 
 ### Assignment Description
 
