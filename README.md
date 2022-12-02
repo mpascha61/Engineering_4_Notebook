@@ -324,7 +324,7 @@ Re-design of the beam after using simscale.
 
 ### Reflection
 
-I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best.
+I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best. Started off with 129.6 mPa on the stress level and got it down to 40.84 on the most stressed section.
 
 ## Onshape4part1Collab Assignment
 
