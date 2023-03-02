@@ -20,9 +20,9 @@
 * [Onshape Beam](#OnshapeBeam)
 * [Sim Scale](#SimScale)
 * [Beam part 2](#OnshapeBeamRe-design)
-* [Onshape Collab 4.1](#Onshape4part1CollabAssignment)
-* [Onshape Collab 4.2](#Onshape4part2CollabAssignment)
-* [Onshape Collab 4.3](#Onshape4part3CollabAssignment)
+* [Onshape Collab 4_1](#Onshape4part1CollabAssignment)
+* [Onshape Collab 4_2](#Onshape4part2CollabAssignment)
+* [Onshape Collab 4_3](#Onshape4part3CollabAssignment)
 
 
 
