@@ -360,7 +360,7 @@ Designed a key that will be pulled to release a pull copter.
 
 ### Reflection
 
-Had to use a pattern to create a bunch of notches in the key. Used a mate connector between the lateral part of the key.
+Had to use a pattern to create a bunch of notches in the key. Used a mate connector between the lateral part of the key. Used extrudes and fillets to fine tune edges.
 
 ## Onshape4part3CollabAssignment
 
